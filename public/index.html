@@ -1,0 +1,794 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="generator" content="Hugo 0.135.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=4321&amp;path=livereload" data-no-instant defer></script>
+
+    <meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+
+
+<title>Pascal&#39;s Data Science Portfolio</title>
+<style>
+     
+    .rad-fade-in {
+        will-change: opacity, transform;
+        animation-name: rad-fade-in-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-fallback {
+        0% {
+            opacity: 0;
+        }
+
+        75% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .fonts-loaded .rad-fade-in.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+    }
+
+    .fonts-loaded .rad-fade-in.rad-animate {
+        animation-name: rad-fade-in;
+        animation-duration: 1.1s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+     
+    .rad-fade-in-long {
+        will-change: opacity, transform;
+        animation-name: rad-fade-in-long-fallback;
+        animation-duration: 8s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-long-fallback {
+        0% {
+            opacity: 0;
+        }
+
+        75% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .fonts-loaded .rad-fade-in-long.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+    }
+
+    .fonts-loaded .rad-fade-in-long.rad-animate {
+        animation-name: rad-fade-in-long;
+        animation-duration: 2s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-long {
+        0% {
+            opacity: 0;
+        }
+
+        20% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+     
+    .rad-fade-down {
+        will-change: opacity, transform;
+        animation-name: rad-fade-down-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+        transform: translateY(-30px);
+    }
+
+    @keyframes rad-fade-down-fallback {
+        0% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        75% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .fonts-loaded .rad-fade-down.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    .fonts-loaded .rad-fade-down.rad-animate {
+        animation-name: rad-fade-down;
+        animation-duration: 1.1s;
+    }
+
+    @keyframes rad-fade-down {
+        0% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+     
+    .rad-scale-down {
+        will-change: opacity, transform;
+        animation-name: rad-scale-down-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+        transform-origin: 50% 0;
+    }
+
+    @keyframes rad-scale-down-fallback {
+        0% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        75% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scaleY(1);
+        }
+    }
+
+    .fonts-loaded .rad-scale-down.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+        transform: scaleY(0.95);
+    }
+
+    .fonts-loaded .rad-scale-down.rad-animate {
+        animation-name: rad-scale-down;
+        animation-duration: 1.1s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-scale-down {
+        0% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scaleY(1);
+        }
+    }
+</style>
+
+
+<link rel="stylesheet" href="//localhost:4321/css/main.css"/>
+
+<link rel="stylesheet" href="//localhost:4321/css/rad-icons.css"/>
+
+<link rel="stylesheet" href="//localhost:4321/css/custom.css"/>
+
+
+    
+
+
+</head>
+
+<body>
+
+	<header class="header fixed-top rad-animation-group" id="header">
+  <div class="container rad-fade-in">
+    <nav class="navbar navbar-expand-lg navbar-light p-0">
+      <a class="navbar-brand" href="//localhost:4321/">
+        <span>Pascal</span>
+        <span>Schmidt</span>
+        
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent, #header"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="//localhost:4321/">HOME</a>
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#portfolio"
+              >PORTFOLIO</a
+            >
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#education"
+              >EDUCATION</a
+            >
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#experience"
+              >WORK EXPERIENCE</a
+            >
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#rpackage"
+              >R PACKAGES</a
+            >
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#publications"
+              >PUBLICATIONS</a
+            >
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+	
+	
+<section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
+  <div class="rad-showcase__bg">
+    <img
+      class="lozad img-responsive"
+      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+      data-src="//localhost:4321/"
+      data-srcset="//localhost:4321/ 1x, //localhost:4321/ 1x"
+      alt=""
+    />
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6">
+        <h1 class="display-1">
+          Hello, I’m Pascal
+          <br />
+          <span
+            >Data Scientist</span
+          >
+        </h1>
+        <p class="lead">
+          I am currently working as a data scientist, developing R packages, creating machine learning models, designing and evaluating A/B tests, building dashboards, and being the data guy for any ad-hoc reports. The main tools I am using are R, Shiny, Javascript/Svelte, Python, and SQL. When I am not working my day job, I am blogging at thatdatatho.com or building web applications about data that interests me.
+        </p>
+        <a
+          href="mailto:pascal.sfu@gmail.com"
+          class="btn btn-primary"
+        >
+          <i class="icon-mail-fill"></i>
+          Contact Me
+        </a>
+      </div>
+    </div>
+    <div class="row platform-links">
+      <div class="col-12">
+        
+        <a href="https://www.linkedin.com/in/pascal-data-science/" target="_blank"
+          ><i class="icon-linkedin-line"></i
+        ></a>
+        
+        <a href="https://github.com/Pascal-Schmidt" target="_blank"
+          ><i class="icon-github-line"></i
+        ></a>
+        
+        <a href="https://www.youtube.com/@pascalschmidt2496" target="_blank"
+          ><i class="icon-youtube-line"></i
+        ></a>
+        
+      </div>
+    </div>
+  </div>
+  <div class="rad-showcase__bg rad-showcase__bg--mobile">
+    <img
+      class="lozad img-responsive"
+      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+      data-src="//localhost:4321/"
+      alt=""
+    />
+  </div>
+</section>
+
+
+	
+	
+
+	
+	
+<section id="portfolio" class="section section--border-bottom">
+  <div class="container">
+    <h2 class=" rad-animation-group rad-fade-down">
+      Portfolio
+    </h2>
+    
+    
+    <div
+      class="row row--padded rad-animation-group rad-fade-down flex-column-reverse flex-md-row"
+    >
+      
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>City of Surrey Crime Rates</h3>
+        <p class="lead">
+          This application visualizes the crime rates in the City of Surrey and also provides time-series visualizations and tables to showcase crime progression over time in different neighbourhoods in Surrey. The data used for this app is publicly available on the City of Surrey website.
+        </p>
+        <a href="https://ec2-3-128-127-99.us-east-2.compute.amazonaws.com/crime-rates/" class="btn btn-primary" target="_blank"
+          >Launch Application<i class="icon-arrow-right"></i
+        ></a>
+      </div>
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        <img
+          class='lozad img-responsive img-clip-left-backward'
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="//localhost:4321/img/works/city_surrey.png"
+          data-srcset="//localhost:4321/img/works/city_surrey.png 1x, //localhost:4321/img/works/city_surrey.png 2x"
+          alt="City of Surrey Crime Rates"
+        />
+      </div>
+      
+    </div>
+    
+    <div
+      class="row row--padded rad-animation-group rad-fade-down "
+    >
+      
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        <img
+          class='lozad img-responsive img-clip-right-backward'
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="//localhost:4321/img/works/ga.png"
+          data-srcset="//localhost:4321/img/works/ga.png 1x, //localhost:4321/img/works/ga.png 2x"
+          alt="Google Analytics Dashboard"
+        />
+      </div>
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>Google Analytics Dashboard</h3>
+        <p class="lead">
+          I connected to the Google Analytics and Google Search Console APIs and tracked several KPIs from my blog. This application uses a Mongo database for the login information and also stores information about the visualizations on the main page. That means that each user has the ability to only show visualizations that are on the main page and other visualization are in a side bar, ready to be displayed if the user wants to have them on the main page again. This visualizations can be individualized and looks different for each user. The password is pass1 and user name is user1. 
+        </p>
+        <a href="https://pascal-schmidt.shinyapps.io/google_analytics_dashboard/" class="btn btn-primary" target="_blank"
+          >Launch Application<i class="icon-arrow-right"></i
+        ></a>
+      </div>
+      
+    </div>
+    
+    <div
+      class="row row--padded rad-animation-group rad-fade-down flex-column-reverse flex-md-row"
+    >
+      
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>A Data Driven Approach to the Vancouver Housing Market</h3>
+        <p class="lead">
+          For this analysis I continuously scraped real estate data for 3 months and collected data about the Vancouver housing market. I collected publicly available data from the City of Vancouver. In particular, I acquired data sets about schools, parks, places such as grocery stores, restaurants, coffee shops, and public service places. Each of these data sets had latitude and longitude values included. I also acquired data from translink and the police department about crime rates in Vancouver neighbourhoods. With the collected data I created a XG boost model to predict housing prices which can be used the evaluate propeties and if they are listed above or below market value by comparing them to the expected value from the model output.
+        </p>
+        <a href="//localhost:4321/img/works/final_report.pdf" class="btn btn-primary" target="_blank"
+          >Show Report<i class="icon-arrow-right"></i
+        ></a>
+      </div>
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        <img
+          class='lozad img-responsive img-clip-left-forward'
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="//localhost:4321/img/works/van_housing.png"
+          data-srcset="//localhost:4321/img/works/van_housing.png 1x, //localhost:4321/img/works/van_housing.png 2x"
+          alt="A Data Driven Approach to the Vancouver Housing Market"
+        />
+      </div>
+      
+    </div>
+    
+  </div>
+</section>
+
+
+	
+	
+<section id="education" class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row rad-fade-down">
+            <div class="col-12">
+                <h2>Education</h2>
+                <div class="row pt-2 pt-md-4">
+                    
+                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                        <div class="education">
+                            <div class="education__date">2021-2023</div>
+                            <div class="education__title">University of Waterloo</div>
+                            <div class="education__degree">
+                                M.Sci., Statistics
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                        <div class="education">
+                            <div class="education__date">2014-2019</div>
+                            <div class="education__title">Simond Fraser University</div>
+                            <div class="education__degree">
+                                B. Sci., Statistics
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+	
+	
+<section id="experience" class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        
+        <div class="row rad-fade-down">
+            <div class="col-12">
+                <h2>Work Experience</h2>
+                <p class="lead">
+                    
+                </p>
+                <a href="https://www.linkedin.com/" class="btn btn-primary"
+                   target="_blank">
+                    <i class="icon-linkedin-fill"></i>
+                    Linkedin
+                    <i class="icon-arrow-right"></i></a>
+                <a href="//localhost:4321/" class="btn btn-frameless"
+                   target="_blank">
+                    <i class="icon-profile-fill"></i>
+                    Download My Resume
+                </a>
+            </div>
+        </div>
+        
+        <div class="row rad-fade-down">
+            <div class="col-12">
+                
+                <div class="experience mt-5">
+                    <div class="experience__date">Nov 2020 - Present</div>
+                    <div class="experience__title">Data Scientist</div>
+                    <div class="experience__company">LBC Studios</div>
+                    
+                    
+                    
+                    <ul class="experience__description">
+                        
+                        <li>Created a random forest model which predicted the most probable bundle price point for players to convert on, leading to an increased conversion rate of 15% and increased revenue by 6%.</li>
+                        
+                        <li>Developed an ensemble time-series model with the tidymodels package and the PyTorch Forecasting package, predicting company revenue two months in advance and improving existing forecasts by 12%.</li>
+                        
+                        <li>Automated repetitive tasks by building an internal R package with useful functions to calculate KPIs, reducing time spent on weekly reports and presentations.</li>
+                        
+                        <li>Designed and evaluated A/B tests and developed machine learning models to calculate the uplift of features where A/B tests were not possible.</li>
+                        
+                        <li>Created and maintained data pipelines that served dashboards with custom visualizations in JavaScript, Svelte, and D3.</li>
+                        
+                        <li>Built a reports website in Quarto for better visibility of analysis for the marketing and product teams.</li>
+                        
+                    </ul>
+                    
+                </div>
+                
+                <div class="experience mt-5">
+                    <div class="experience__date">Jun 2020 - Nov 2020</div>
+                    <div class="experience__title">Data Analyst</div>
+                    <div class="experience__company">Samdesk</div>
+                    
+                    
+                    
+                    <ul class="experience__description">
+                        
+                        <li>Deployed and dockerized a web application on AWS using R Shiny to analyze real-time Twitter data, increasing the productivity of employees who used the application for research purposes.</li>
+                        
+                        <li>Queried, cleaned, and visualized data using MongoDB, pandas, NumPy, and Python plotting libraries to update teams on machine learning model performances.</li>
+                        
+                        <li>Developed automated interactive dashboards with plotly and flexdashboard to inform teams about internal data usage and to improve the client experience.</li>
+                        
+                    </ul>
+                    
+                </div>
+                
+                <div class="experience mt-5">
+                    <div class="experience__date">May 2019 - Aug 2019</div>
+                    <div class="experience__title">Data Analyst (Co-op)</div>
+                    <div class="experience__company">Statistics Canada</div>
+                    
+                    
+                    
+                    <ul class="experience__description">
+                        
+                        <li>Developed R scripts for cleaning multiple data sets and used SQL joins to build a usable data set for analysis.</li>
+                        
+                        <li>Built an R markdown report with tables and graphs for a better understanding of why people’s addresses on administrative data matched that on census data.</li>
+                        
+                        <li>Created data visualization plots in Power BI to supplement the R markdown report.</li>
+                        
+                        <li>Presented data and conclusions to my team, which used the results to gain actionable insights into the Census Program Transformation Project and improved the population coverage for administrative data.</li>
+                        
+                    </ul>
+                    
+                </div>
+                
+                <div class="experience mt-5">
+                    <div class="experience__date">May 2018 - Dec 2018</div>
+                    <div class="experience__title">Data Science Trainee (Co-op)</div>
+                    <div class="experience__company">BC Cancer Agency</div>
+                    
+                    
+                    
+                    <ul class="experience__description">
+                        
+                        <li>Designed reports and conducted explanatory data analysis, which led to a successful publication, by visualizing key characteristics of patients with endometrial cancer.</li>
+                        
+                        <li>Produced interactive dashboards to communicate data to physicians who used the work for presentations.</li>
+                        
+                        <li>Researched and applied previously unknown statistical libraries to improve data representation.</li>
+                        
+                        <li>Composed a bi-annual report by cleaning, reshaping, and joining multiple unstructured data sources, extensively using R tidyverse packages.</li>
+                        
+                        <li>Implemented a meta-analysis of individual patient data and a Cox regression model to determine if endometrial cancer patients need additional treatment plans and to improve their quality of life.</li>
+                        
+                    </ul>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+
+	
+	
+<section id="rpackages" class="section section--border-bottom">
+  <div class="container">
+    <h2 class=" rad-animation-group rad-fade-down">
+      R Packages
+    </h2>
+    
+    
+    <div
+      class="row row--padded rad-animation-group rad-fade-down flex-column-reverse flex-md-row"
+    >
+      
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>SveltePlots</h3>
+        <p class="lead">
+          SveltePlots is an interactive visualization package built with Svelte, JavaScript, and D3. This R library is a wrapper for a custom Svelte web component that leverages SVG to create interactive and dynamic charts. SveltePlots includes a limited amount of charts to date which are line and scatter plots, bar charts, density charts, and histograms. <br><br> For the wrapper, I created an R API similar to the ggplot2 package with the help of htmlwidgets to make the visualizations accessible in R reports and Shiny applications. <br><br> <h4>Key Features</h4> <ul> <li><strong>State Management:</strong> Benefit from Svelte’s exceptional state management to handle dynamic updates seamlessly.</li> <li><strong>Ease of Use:</strong> Eliminate the need for proxy functions, renderUI, insertUI, and removeUI in Shiny, simplifying your code and enhancing maintainability.</li> <li><strong>Interactive Charts:</strong> Create highly interactive and responsive charts with minimal effort.</li> <li><strong>SVG-based:</strong> Utilize SVG for crisp and scalable vector graphics, ideal for a wide range of data visualizations.</li> </ul>
+<h5>Ease of Use</h5>
+<h5>Traditional Approach with Proxy Functions</h5> <p>When using JavaScript-based charting libraries in Shiny:</p> <ul> <li><strong>Proxy Functions:</strong> Proxy functions are created to handle updates to the chart. These functions allow developers to modify certain parts of the chart specification without re-rendering the entire chart. For example, if only the data points change, the proxy function will update just the data-related part of the chart.</li> <li><strong>Partial Updates:</strong> By sending only the changes (such as new data points or updated axis labels) to the client-side JavaScript, these functions help maintain performance and responsiveness. This avoids the overhead of re-sending and re-rendering the entire chart.</li> </ul>
+<h5>SveltePlots Approach</h5> <ul> <li><strong>Complete Specification Updates:</strong> Instead of sending partial updates, the entire chart specification is sent to Svelte. This might seem inefficient at first glance, but Svelte’s optimized update mechanism ensures that only the parts of the DOM that need to change are updated.</li> <li><strong>Svelte’s Reactivity:</strong> Svelte automatically tracks the dependencies and efficiently updates only the parts of the chart that have changed. This makes it unnecessary to manually create proxy functions and manage partial updates.</li> </ul> 
+        </p>
+        <a href="https://pascal-schmidt.github.io/SveltePlots/" class="btn btn-primary" target="_blank"
+          >See Documentation and Website<i class="icon-arrow-right"></i
+        ></a>
+      </div>
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        <img
+          class='lozad img-responsive img-clip-left-backward'
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="//localhost:4321/img/works/rpackages.png"
+          data-srcset="//localhost:4321/img/works/rpackages.png 1x, //localhost:4321/img/works/rpackages.png 2x"
+          alt="SveltePlots"
+        />
+      </div>
+      
+    </div>
+    
+  </div>
+</section>
+
+
+	
+	
+<section id="publications" class="section rad-animation-group section--border-bottom" style="margin:0px">
+    <div class="container">
+        <h2 class="rad-fade-down">Publications</h2>
+        <div class="row--padded mb-0 rad-fade-down">
+            
+            
+                <h5>
+                    Molecular subtype not immune response drives outcomes in endometrial carcinoma
+                </h5>    
+                <p>
+                 <a href="https://aacrjournals.org/clincancerres/article/25/8/2537/82607/Molecular-Subtype-Not-Immune-Response-Drives"
+                 class="btn btn-primary">
+                 <i class=""></i>
+                 Show Publication</a>
+                 </p>
+           
+            
+                <h5>
+                    Evaluation of treatment effects in patients with endometrial cancer and POLE mutations: An individual patient data meta-analysis
+                </h5>    
+                <p>
+                 <a href="https://acsjournals.onlinelibrary.wiley.com/doi/full/10.1002/cncr.33516"
+                 class="btn btn-primary">
+                 <i class=""></i>
+                 Show Publication</a>
+                 </p>
+             
+        </div>
+     
+    </div>
+   
+</section>
+
+	
+	
+
+	
+	
+
+	
+
+	<footer class="footer">
+  <div class="container">
+
+    <div class="footer__left">
+      <div class="footer__copy">
+        © Matt Dancho. All rights reserved.
+      </div>
+    </div>
+    
+    <div class="footer__links">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link" href="/">HOME</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="//localhost:4321/#portfolio">PORTFOLIO</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="//localhost:4321/#education">EDUCATION</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="//localhost:4321/#experience">WORK EXPERIENCE</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="//localhost:4321/#rpackage">R PACKAGES</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="//localhost:4321/#publications">PUBLICATIONS</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="footer__right">
+      <div class="footer__copy">
+        Site built with  <a href="https://business-science.github.io/portfoliodown/" target="_blank">portfoliodown</a>.
+        
+      </div>
+      
+    </div>
+    
+    
+  </div>
+</footer>
+  <script src='//localhost:4321/js/rad-animations.js'></script>
+<script src='//localhost:4321/js/library/lozad.min.js'></script>
+<script>
+  window.addEventListener("load", function() {
+    var observer = window.lozad(".lozad", {
+      rootMargin: window.innerHeight / 2 + "px 0px",
+      threshold: 0.01
+    }); 
+    observer.observe();
+  });
+</script>
+<script src='//localhost:4321/js/library/jquery-3.3.1.slim.min.js'></script>
+<script src='//localhost:4321/js/library/bootstrap.min.js'></script>
+<script src='//localhost:4321/js/sticky-header.js'></script>
+<script src='//localhost:4321/js/library/smooth-scroll.polyfills.min.js'></script>
+<script src='//localhost:4321/js/library/fontfaceobserver.js'></script>
+<script>
+  (function(w) {
+    
+    if (w.document.documentElement.className.indexOf("fonts-loaded") > -1) {
+      return;
+    }
+    var fontA = new w.FontFaceObserver("Inter", {
+      weight: 300
+    });
+    var fontB = new w.FontFaceObserver("Inter", {
+      weight: 400
+    });
+    var fontC = new w.FontFaceObserver("Inter", {
+      weight: 500
+    });
+    var fontD = new w.FontFaceObserver("Inter", {
+      weight: 600
+    });
+    var fontE = new w.FontFaceObserver("Inter", {
+      weight: 700
+    });
+    var fontF = new w.FontFaceObserver("Inter", {
+      weight: 900
+    });
+    w.Promise.all([fontA.load(), fontC.load(), fontF.load()]).then(function() {
+      w.document.documentElement.className += " fonts-loaded";
+    });
+  })(this);
+</script>
+<script>
+  const scroll = new SmoothScroll('a[href*="#"]');
+    $('a.nav-link').on('click', () => {
+      const navbar = $('.navbar-collapse');
+      if (navbar && navbar.hasClass('show')) {
+        $('.navbar-toggler').click();
+      }
+    })
+</script>
+
+  
+</body>
+
+</html>

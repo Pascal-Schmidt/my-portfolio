@@ -1,0 +1,5 @@
+/* You can customize theme styles here */
+.navbar-brand span {
+    font-family: sans-serif !important; /* Customize the font family for the span */
+    color: black !important; /* Customize the color for the span */
+}

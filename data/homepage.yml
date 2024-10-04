@@ -1,0 +1,253 @@
+head:
+  title: "Pascal's Data Science Portfolio"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Pascal"
+  subtitle: "Data Scientist"
+  description: "I am currently working as a data scientist, developing R packages, creating machine learning models, designing and
+evaluating A/B tests, building dashboards, and being the data guy for any ad-hoc reports. The main
+tools I am using are R, Shiny, Javascript/Svelte, Python, and SQL. When I am not working my day job,
+I am blogging at thatdatatho.com or building web applications about data
+that interests me."
+  image:
+    x: ""
+    _2x: ""
+  imageMobile:
+    x: ""
+    _2x: ""
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact Me"
+    URL: "mailto:pascal.sfu@gmail.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/pascal-data-science/"
+
+    - icon: "github"
+      URL: "https://github.com/Pascal-Schmidt"
+
+    - icon: "youtube"
+      URL: "https://www.youtube.com/@pascalschmidt2496"
+
+# about
+about:
+  enable: false
+  title: "Who am I?"
+  content: 
+    <p class="lead">
+    
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com"
+  image:
+    x: "img/who-am-i/user-picture-2.jpg"
+    _2x: "img/who-am-i/user-picture-2.jpg"
+
+# experience
+experience:
+  enable: true
+  title: "Work Experience"
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+
+  items:
+  - title: "Data Scientist"
+    company: "LBC Studios"
+    duration: "Nov 2020 - Present"
+    description:
+      - "Created a random forest model which predicted the most probable bundle price point for players to convert on, leading to an increased conversion rate of 15% and increased revenue by 6%."
+      - "Developed an ensemble time-series model with the tidymodels package and the PyTorch Forecasting package, predicting company revenue two months in advance and improving existing forecasts by 12%."
+      - "Automated repetitive tasks by building an internal R package with useful functions to calculate KPIs, reducing time spent on weekly reports and presentations."
+      - "Designed and evaluated A/B tests and developed machine learning models to calculate the uplift of features where A/B tests were not possible."
+      - "Created and maintained data pipelines that served dashboards with custom visualizations in JavaScript, Svelte, and D3."
+      - "Built a reports website in Quarto for better visibility of analysis for the marketing and product teams."
+
+  - title: "Data Analyst"
+    company: "Samdesk"
+    duration: "Jun 2020 - Nov 2020"
+    description:
+      - "Deployed and dockerized a web application on AWS using R Shiny to analyze real-time Twitter data, increasing the productivity of employees who used the application for research purposes."
+      - "Queried, cleaned, and visualized data using MongoDB, pandas, NumPy, and Python plotting libraries to update teams on machine learning model performances."
+      - "Developed automated interactive dashboards with plotly and flexdashboard to inform teams about internal data usage and to improve the client experience."
+
+  - title: "Data Analyst (Co-op)"
+    company: "Statistics Canada"
+    duration: "May 2019 - Aug 2019"
+    description:
+      - "Developed R scripts for cleaning multiple data sets and used SQL joins to build a usable data set for analysis."
+      - "Built an R markdown report with tables and graphs for a better understanding of why people’s addresses on administrative data matched that on census data."
+      - "Created data visualization plots in Power BI to supplement the R markdown report."
+      - "Presented data and conclusions to my team, which used the results to gain actionable insights into the Census Program Transformation Project and improved the population coverage for administrative data."
+
+  - title: "Data Science Trainee (Co-op)"
+    company: "BC Cancer Agency"
+    duration: "May 2018 - Dec 2018"
+    description:
+      - "Designed reports and conducted explanatory data analysis, which led to a successful publication, by visualizing key characteristics of patients with endometrial cancer."
+      - "Produced interactive dashboards to communicate data to physicians who used the work for presentations."
+      - "Researched and applied previously unknown statistical libraries to improve data representation."
+      - "Composed a bi-annual report by cleaning, reshaping, and joining multiple unstructured data sources, extensively using R tidyverse packages."
+      - "Implemented a meta-analysis of individual patient data and a Cox regression model to determine if endometrial cancer patients need additional treatment plans and to improve their quality of life."
+
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "University of Waterloo"
+      year: "2021-2023"
+      degree: "M.Sci., Statistics"
+
+    - university: "Simond Fraser University"
+      year: "2014-2019"
+      degree: "B. Sci., Statistics"
+
+
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+  
+  enable_clients: false
+
+  works:
+    - title: "City of Surrey Crime Rates"
+      description: "This application visualizes the crime rates in the City of Surrey and also provides time-series visualizations and tables to showcase crime progression over time in different neighbourhoods in Surrey. The data used for this app is publicly available on the City of Surrey website."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://ec2-3-128-127-99.us-east-2.compute.amazonaws.com/crime-rates/"
+      image:
+        x: "img/works/city_surrey.png"
+        _2x: "img/works/city_surrey.png"
+      is_even: true
+
+    - title: "Google Analytics Dashboard"
+      description: "I connected to the Google Analytics and Google Search Console APIs and tracked several KPIs from my blog. This application uses a Mongo database for the login information and also stores information about the visualizations on the main page. That means that each user has the ability to only show visualizations that are on the main page and other visualization are in a side bar, ready to be displayed if the user wants to have them on the main page again. This visualizations can be individualized and looks different for each user. The password is pass1 and user name is user1. "
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://pascal-schmidt.shinyapps.io/google_analytics_dashboard/"
+      image:
+        x: "img/works/ga.png"
+        _2x: "img/works/ga.png"
+      is_even: false
+      
+    - title: "A Data Driven Approach to the Vancouver Housing Market"
+      description: "For this analysis I continuously scraped real estate data for 3 months and collected data about the Vancouver housing market. I collected publicly available data from the City of Vancouver. In particular, I acquired data sets about schools, parks, places such as grocery stores, restaurants, coffee shops, and public service places. Each of these data sets had latitude and longitude values included. I also acquired data from translink and the police department about crime rates in Vancouver neighbourhoods. With the collected data I created a XG boost model to predict housing prices which can be used the evaluate propeties and if they are listed above or below market value by comparing them to the expected value from the model output."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Show Report"
+        URL: "img/works/final_report.pdf"
+      image:
+        x: "img/works/van_housing.png"
+        _2x: "img/works/van_housing.png"
+      is_even: true
+      
+# Client & Work
+rpackages:
+  title: "R Packages"
+  enable: true
+  
+  enable_clients: false
+
+  works:
+    - title: "SveltePlots"
+      description: "SveltePlots is an interactive visualization package built with Svelte, JavaScript, and D3. This R library is a wrapper for a custom Svelte web component that leverages SVG to create interactive and dynamic charts. SveltePlots includes a limited amount of charts to date which are line and scatter plots, bar charts, density charts, and histograms. <br><br> For the wrapper, I created an R API similar to the ggplot2 package with the help of htmlwidgets to make the visualizations accessible in R reports and Shiny applications. <br><br> 
+      <h4>Key Features</h4>
+<ul>
+  <li><strong>State Management:</strong> Benefit from Svelte’s exceptional state management to handle dynamic updates seamlessly.</li>
+  <li><strong>Ease of Use:</strong> Eliminate the need for proxy functions, renderUI, insertUI, and removeUI in Shiny, simplifying your code and enhancing maintainability.</li>
+  <li><strong>Interactive Charts:</strong> Create highly interactive and responsive charts with minimal effort.</li>
+  <li><strong>SVG-based:</strong> Utilize SVG for crisp and scalable vector graphics, ideal for a wide range of data visualizations.</li>
+</ul>
+
+<h5>Ease of Use</h5>
+
+<h5>Traditional Approach with Proxy Functions</h5>
+<p>When using JavaScript-based charting libraries in Shiny:</p>
+<ul>
+  <li><strong>Proxy Functions:</strong> Proxy functions are created to handle updates to the chart. These functions allow developers to modify certain parts of the chart specification without re-rendering the entire chart. For example, if only the data points change, the proxy function will update just the data-related part of the chart.</li>
+  <li><strong>Partial Updates:</strong> By sending only the changes (such as new data points or updated axis labels) to the client-side JavaScript, these functions help maintain performance and responsiveness. This avoids the overhead of re-sending and re-rendering the entire chart.</li>
+</ul>
+
+<h5>SveltePlots Approach</h5>
+<ul>
+  <li><strong>Complete Specification Updates:</strong> Instead of sending partial updates, the entire chart specification is sent to Svelte. This might seem inefficient at first glance, but Svelte’s optimized update mechanism ensures that only the parts of the DOM that need to change are updated.</li>
+  <li><strong>Svelte’s Reactivity:</strong> Svelte automatically tracks the dependencies and efficiently updates only the parts of the chart that have changed. This makes it unnecessary to manually create proxy functions and manage partial updates.</li>
+</ul>
+      "
+      button:
+        icon: "icon-arrow-right"
+        btnText: "See Documentation and Website"
+        URL: "https://pascal-schmidt.github.io/SveltePlots/"
+      image:
+        x: "img/works/rpackages.png"
+        _2x: "img/works/rpackages.png"
+      is_even: true
+    
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Publications"
+  items:
+    
+    - name: 
+      content: "Molecular subtype not immune response drives outcomes in endometrial carcinoma"
+      button:
+        URL: "https://aacrjournals.org/clincancerres/article/25/8/2537/82607/Molecular-Subtype-Not-Immune-Response-Drives"
+        btnText: "Show Publication"
+        icon: ""
+    - name:
+      content: "Evaluation of treatment effects in patients with endometrial cancer and POLE mutations: An individual patient data meta-analysis"
+      button:
+        URL: "https://acsjournals.onlinelibrary.wiley.com/doi/full/10.1002/cncr.33516"
+        btnText: "Show Publication"
+        icon: ""
+
+# contact
+contact:
+  enable: false
+  title: "Contact Matt"
+    
+  image:
+    x: "img/who-am-i/user-picture-2.jpg"
+    _2x: "img/who-am-i/user-picture-2.jpg"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    btnAction: 'mailto:your-email@gmail.com'
+    
+  phone:
+    title: "Phone Number"
+    number: "--"
+  email:
+    title: "Email"
+    email: '<a href="mailto:your-email@gmail.com">your-email@gmail.com</a>'
+  address:
+    title: "Address"
+    address: "--"
+  
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."

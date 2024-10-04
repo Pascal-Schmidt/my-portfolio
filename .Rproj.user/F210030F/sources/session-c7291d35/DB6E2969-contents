@@ -1,0 +1,262 @@
+head:
+  title: "Pascal's Data Science Portfolio"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Pascal"
+  subtitle: "Data Scientist"
+  description: "I am currently working as a data scientist, developing R packages, creating machine learning models, designing and
+evaluating A/B tests, building dashboards, and being the data guy for any ad-hoc reports. The main
+tools I am using are R, Shiny, Javascript/Svelte, Python, and SQL. When I am not working my day job,
+I am blogging at thatdatatho.com or building web applications about data
+that interests me."
+  image:
+    x: "img/showcase/data-science.gif"
+    _2x: "img/showcase/data-science.gif"
+  imageMobile:
+    x: "img/showcase/data-science.gif"
+    _2x: "img/showcase/data-science.gif"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact Matt"
+    URL: "mailto:your-email@gmail.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com"
+
+    - icon: "github"
+      URL: "https://github.com"
+
+    - icon: "twitter"
+      URL: "https://twitter.com"
+
+    - icon: "dribbble"
+      URL: "https://dribbble.com"
+
+    - icon: "behance"
+      URL: "https://www.behance.net"
+
+    - icon: "youtube"
+      URL: "https://www.youtube.com"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com"
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com"
+
+    - icon: "codepen"
+      URL: "#"
+
+    - icon: "yelp"
+      URL: "https://www.yelp.com/"
+
+# about
+about:
+  enable: false
+  title: "Who am I?"
+  content: 
+    <p class="lead">
+    
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com"
+  image:
+    x: "img/who-am-i/user-picture-2.jpg"
+    _2x: "img/who-am-i/user-picture-2.jpg"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+
+  items:
+  - title: "Data Scientist"
+    company: "LBC Studios"
+    duration: "Nov 2020 - Present"
+    description:
+      - "Created a random forest model which predicted the most probable bundle price point for players to convert on, leading to an increased conversion rate of 15% and increased revenue by 6%."
+      - "Developed an ensemble time-series model with the tidymodels package and the PyTorch Forecasting package, predicting company revenue two months in advance and improving existing forecasts by 12%."
+      - "Automated repetitive tasks by building an internal R package with useful functions to calculate KPIs, reducing time spent on weekly reports and presentations."
+      - "Designed and evaluated A/B tests and developed machine learning models to calculate the uplift of features where A/B tests were not possible."
+      - "Created and maintained data pipelines that served dashboards with custom visualizations in JavaScript, Svelte, and D3."
+      - "Built a reports website in Quarto for better visibility of analysis for the marketing and product teams."
+
+  - title: "Data Analyst"
+    company: "Samdesk"
+    duration: "Jun 2020 - Nov 2020"
+    description:
+      - "Deployed and dockerized a web application on AWS using R Shiny to analyze real-time Twitter data, increasing the productivity of employees who used the application for research purposes."
+      - "Queried, cleaned, and visualized data using MongoDB, pandas, NumPy, and Python plotting libraries to update teams on machine learning model performances."
+      - "Developed automated interactive dashboards with plotly and flexdashboard to inform teams about internal data usage and to improve the client experience."
+
+  - title: "Data Analyst, Co-op"
+    company: "Statistics Canada"
+    duration: "Ottawa, ON"
+    description:
+      - "Developed R scripts for cleaning multiple data sets and used SQL joins to build a usable data set for analysis."
+      - "Built an R markdown report with tables and graphs for a better understanding of why people’s addresses on administrative data matched that on census data."
+      - "Created data visualization plots in Power BI to supplement the R markdown report."
+      - "Presented data and conclusions to my team, which used the results to gain actionable insights into the Census Program Transformation Project and improved the population coverage for administrative data."
+
+  - title: "Data Science Trainee (Co-op)"
+    company: "BC Cancer Agency"
+    duration: "May 2018 - Dec 2018"
+    description:
+      - "Designed reports and conducted explanatory data analysis, which led to a successful publication, by visualizing key characteristics of patients with endometrial cancer."
+      - "Produced interactive dashboards to communicate data to physicians who used the work for presentations."
+      - "Researched and applied previously unknown statistical libraries to improve data representation."
+      - "Composed a bi-annual report by cleaning, reshaping, and joining multiple unstructured data sources, extensively using R tidyverse packages."
+      - "Implemented a meta-analysis of individual patient data and a Cox regression model to determine if endometrial cancer patients need additional treatment plans and to improve their quality of life."
+
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "University of Waterloo"
+      year: "2021-2023"
+      degree: "M.Sci., Statistics"
+
+    - university: "Simond Fraser University"
+      year: "2014-2019"
+      degree: "B. Sci., Statistics"
+
+
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+  
+  enable_clients: false
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "Data Scientist"
+      description: "This application helps Marketing & Sales identify trends in product demand. The application is built in my Shiny Predictive Dashboards Course using Machine Learning."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://business-science.shinyapps.io/sales_dashboard_demand_forecast/"
+      image:
+        x: "img/works/app_sales_demand_forecast.jpg"
+        _2x: "img/works/app_sales_demand_forecast.jpg"
+      is_even: true
+
+    - title: "Product Price Recommendation"
+      description: "This application helps Marketing & R&D Teams determine product gaps and price new products to fill the gaps using machine learning. The application is built in my Shiny Predictive Dashboards Course using Machine Learning."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://business-science.shinyapps.io/cannondale_price_prediction_app/"
+      image:
+        x: "img/works/app_cannondale_price_prediction.jpg"
+        _2x: "img/works/app_cannondale_price_prediction.jpg"
+      is_even: false
+
+    
+
+# testimonial
+testimonial:
+  enable: false
+  title: "Testimonials"
+  items:
+  
+    - name: "Justin Kurland, PhD"
+      position: "Lead Data Scientist, Northwestern Mutual"
+      content: "In less than 6 months after starting my first Business Science Course with Matt I had fully transitioned into a role as a lead data scientist and my life is better for it!"
+      image:
+        x: "img/testimonials/justin.jpg"
+        _2x: "img/testimonials/justin.jpg"
+        
+    - name: "Chris Selig"
+      position: "Data Scientist"
+      content: "Because of all the R courses Matt Dancho has provided, I landed my first Data Scientist role. Setting up shiny dashboards in AWS was extremely helpful during my interview."
+      image:
+        x: "img/testimonials/chris.jpg"
+        _2x: "img/testimonials/chris.jpg"
+
+    
+
+    - name: "Mohana Krishna Chittoor"
+      position: "Lead Data Scientist, Money View"
+      content: "After your entry into my life, I got a 10% pay raise and then after another 6-months of 26%, and in just another 2-months a 40% hike. I can grab a job wherever I want."
+      image:
+        x: "img/testimonials/mohana.jpg"
+        _2x: "img/testimonials/mohana.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact Matt"
+    
+  image:
+    x: "img/who-am-i/user-picture-2.jpg"
+    _2x: "img/who-am-i/user-picture-2.jpg"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    btnAction: 'mailto:your-email@gmail.com'
+    
+  phone:
+    title: "Phone Number"
+    number: "--"
+  email:
+    title: "Email"
+    email: '<a href="mailto:your-email@gmail.com">your-email@gmail.com</a>'
+  address:
+    title: "Address"
+    address: "--"
+  
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
