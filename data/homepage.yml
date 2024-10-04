@@ -12,8 +12,8 @@ tools I am using are R, Shiny, Javascript/Svelte, Python, and SQL. When I am not
 I am blogging at thatdatatho.com or building web applications about data
 that interests me."
   image:
-    x: ""
-    _2x: ""
+    x: "img/general/pic.jpg"
+    _2x: "img/general/pic.jpg"
   imageMobile:
     x: ""
     _2x: ""
