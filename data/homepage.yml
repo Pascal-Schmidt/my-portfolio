@@ -195,8 +195,8 @@ rpackages:
         btnText: "See Documentation and Website"
         URL: "https://pascal-schmidt.github.io/SveltePlots/"
       image:
-        x: "img/works/rpackages.png"
-        _2x: "img/works/rpackages.png"
+        x: "img/works/combined_image.jpg"
+        _2x: "img/works/combined_image.jpg"
       is_even: true
     
 
